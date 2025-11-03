@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Página Principal</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="assets/spotify-logo.png" alt="Spotify Logo" width="60">
+            <span>Spotify</span>
+        </div>
+        <nav>
+            <a href="#" class="active">Inicio</a>
+            <a href="buscar.html">Buscar</a>
+            <a href="biblioteca.html">Tu Biblioteca</a>
+        </nav>
+    </div>
+    
+    <div class="main-content">
+        <header>
+            <h1>Buenas tardes</h1>
+            <div class="user-menu">
+                <a href="login.html">Iniciar Sesión</a> | <a href="register.html">Registrarse</a>
+            </div>
+        </header>
+        
+        <!-- Contenido igual que antes -->
+        <section class="playlists">
+            <h2>Álbumes recomendados</h2>
+            <div class="playlist-grid">
+                <div class="playlist-card">
+                    <img src="assets/album1.jpg" alt="Álbum 1">
+                    <h3>Álbum Ejemplo 1</h3>
+                    <p>Artista Ejemplo</p>
+                </div>
+                <!-- Más tarjetas -->
+            </div>
+        </section>
+        
+        <section class="recently-played">
+            <h2>Reproducido recientemente</h2>
+            <div class="song-list">
+                <div class="song-item">
+                    <img src="assets/song1.jpg" alt="Canción 1">
+                    <div>
+                        <h4>Canción Ejemplo 1</h4>
+                        <p>Artista Ejemplo</p>
+                    </div>
+                    <button class="play-btn">▶</button>
+                </div>
+                <!-- Más canciones -->
+            </div>
+        </section>
+    </div>
+    
+    <div class="player">
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="controls">
+            <button>⏮</button>
+            <button id="play-pause">▶</button>
+            <button>⏭</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

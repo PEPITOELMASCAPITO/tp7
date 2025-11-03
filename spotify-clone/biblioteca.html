@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Biblioteca - Spotify Clone</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="assets/spotify-logo.png" alt="Spotify Logo" width="40">
+            <span>Spotify</span>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="buscar.html">Buscar</a>
+            <a href="biblioteca.html" class="active">Tu Biblioteca</a>
+        </nav>
+    </div>
+    
+    <div class="main-content">
+        <header>
+            <h1>Tu Biblioteca</h1>
+            <div class="library-filters">
+                <button class="filter-btn active">Playlists</button>
+                <button class="filter-btn">Artistas</button>
+                <button class="filter-btn">Álbumes</button>
+            </div>
+        </header>
+        
+        <section class="library-content">
+            <div class="library-grid">
+                <div class="library-item">
+                    <img src="assets/playlist1.jpg" alt="Playlist 1">
+                    <h3>Mi Playlist Favorita</h3>
+                    <p>Por ti</p>
+                </div>
+                <div class="library-item">
+                    <img src="assets/artist1.jpg" alt="Artista 1">
+                    <h3>Artista Ejemplo</h3>
+                    <p>Artista</p>
+                </div>
+                <!-- Más items -->
+            </div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

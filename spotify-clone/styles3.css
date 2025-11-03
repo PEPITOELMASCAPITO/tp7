@@ -1,0 +1,83 @@
+/* Estilos anteriores permanecen igual */
+
+/* Estilos para búsqueda */
+.search-bar {
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+     margin-left: 17%;
+}
+
+.search-bar input::placeholder {
+    color: #ffffff;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.result-item {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.result-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilos para biblioteca */
+.library-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background-color: #1db954;
+    color: white;
+}
+
+.library-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.library-item {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+        color: white;
+    font-size: 16px;
+}
+
+.library-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
